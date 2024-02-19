@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    int age ;
+
+    printf("Enter you're age : ");
+    scanf("%d" , &age);
+
+    if(age >= 18){
+        printf("you can have your credit card");
+    }
+    else if(age < 0){
+        printf("error");
+    }
+    else if(age == 1){
+        printf("you can't sign up when you're 1 years old");
+    }
+    else{
+        printf("you are too young");
+    }
+
+    return 0;
