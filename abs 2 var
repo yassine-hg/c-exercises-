@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    int x;
+    int y;
+
+    printf("Enter la valeur de X : ");
+    scanf("%d",&x);
+
+    printf("Entrer la valeur de Y : ");
+    scanf("%d", &y);
+
+    int z = x - y ;
+
+    if (x>y){
+        printf("la valeur est : %d" , z);
+    }
+
+    else if (x<y){
+        int val = abs(x-y);
+        printf("la valeur est : %d" , val);
+    }
+
+    return 0;
+}
