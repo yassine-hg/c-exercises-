@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    int absolue ;
+
+    printf("enter un reel : ");
+    scanf("%d" , &absolue);
+
+    if (absolue < 0){
+        int val = abs(absolue);
+        printf("la valeur absolue est : %d" , val);
+    }
+
+    else if (absolue > 0){
+        printf("la valeur absolue est : %d" , absolue);
+    }
+
+    return 0;
+
+}
