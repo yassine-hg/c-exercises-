@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    int x ;
+    int y ;
+
+    printf("Enter la valeur de x : ");
+    scanf("%d" , &x);
+
+    printf("Enter la valeur de y : ");
+    scanf("%d" , &y);
+
+    if(x > y) {
+        printf("l'ordre est : %d,%d ", x , y);
+    }
+    else if (y > x) {
+        printf("l'ordre est : %d,%d" , y ,x);
+    }
+    else {
+        printf("error");
+    }
+
+
+return 0;
+
+
+}
