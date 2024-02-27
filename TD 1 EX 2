@@ -1,0 +1,43 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int i ;
+    short int j ;
+    long int k ;
+    float x ;
+    double y ;
+    long double z ;
+    char c ;
+
+    printf("enter un int : ");
+    scanf("%d" , &i);
+    printf("i vaut : %d\n et son address est %d \n", i , &i);
+
+    printf("enter un short int ");
+    scanf("%hd" , &j);
+    printf("j vaut : %hd\n et son address est %hd \n" , j ,&j );
+
+    printf("enter un long int ");
+    scanf("%ld" , &k);
+    printf("k vaut : %ld\n et son address est %ld \n" , k ,&k );
+
+    printf("enter un float ");
+    scanf("%f" , &x);
+    printf("x vaut : %f\n et son address est %f\n" , x ,&x );
+
+    printf("enter un double ");
+    scanf("%lf" , &y);
+    printf("y vaut : %lf\n et son address est %lf\n" , y ,&y );
+
+    printf("enter un long double ");
+    scanf("%Lf" , &z);
+    printf("z vaut : %Lf\n et son address est %Lf\n" , z ,&z );
+
+    printf("enter un long double ");
+    scanf("%c" , &c);
+    printf("c vaut : %c\n et son address est %c\n" , c ,&c );
+
+
+return 0;
+}
