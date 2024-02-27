@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+   printf("le nombre d'octect pour un int %d octect\n" , sizeof(int));
+   printf("Le nombre d'octect pour un short int %d octect\n" , sizeof(long int));
+   printf("Le nombre d'octect pour un short int %d octect\n" , sizeof(short int));
+   printf("Le nombre d'octect pour un short int %d octect\n" , sizeof( float ));
+   printf("Le nombre d'octect pour un short int %d octect\n" , sizeof(double ));
+   printf("Le nombre d'octect pour un short int %d octect\n" , sizeof(long double ));
+
+
+return 0;
+}
