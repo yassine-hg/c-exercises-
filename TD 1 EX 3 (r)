@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(){
+    double r1 ;
+    double r2 ;
+    double r3 ;
+    double rs ;
+    double  rp ;
+
+    printf("Enter la R1 : ");
+    scanf("%lf" , &r1);
+    printf("Enter la R2 : ");
+    scanf("%lf" , &r2);
+    printf("Enter la R3 : ");
+    scanf("%lf" , &r3);
+
+    rs = r1 + r2 + r3 ;
+    rp = ((r1 * r2 * r3) / ((r1*r2) + (r1*r3) + (r2*r3)));
+
+    printf("Le resulta en serie : %lf\n " , rs);
+    printf("Le resulta en paralle : %lf\n " , rp);
+
+
+
+return 0;
+}
