@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <math.h>
+
+
+
+int main() {
+float tabnote[10];
+int i;
+int somme = 0;
+
+printf("enter les notes suivant : \n");
+for(int i=0;i<4;i++){
+        printf("Note %d :",i);
+        scanf("%f", &tabnote[i]);
+
+}
+
+for (i = 0 ; i < 4; i++){
+    somme = somme + tabnote[i];
+    printf("%.2f\n" , tabnote[i]);
+}
+printf("la somme est : %d\n", somme);
+
+
+
+
+
+
+return 0;
+}
